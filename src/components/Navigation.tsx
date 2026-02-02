@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Heart, Gift, Mail, Image, Home } from "lucide-react";
+import { Gift, Mail, Image, Home } from "lucide-react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
@@ -27,7 +27,7 @@ const Navigation = () => {
               whileHover={{ scale: 1.1 }}
               className="animate-pulse-love"
             >
-              <Heart className="w-6 h-6 text-primary fill-primary" />
+              <span className="text-2xl">❤️</span>
             </motion.div>
             <span className="font-display text-xl font-semibold text-foreground">
               Forever Yours
